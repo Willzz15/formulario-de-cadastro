@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+body{
+  background-color: #FF8427;
+
+
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color: aliceblue;
+  font-size: 16px;
+  
+  margin-top: 40px;
+  width: 500px;
+  padding: 20px;
+
+  display: block;
+  border-radius: 10px;
+}
+
+div{
+  margin-top: 5px;
+}
+
+h1{
+  margin-bottom: 4px;
+  text-align: center;  
+}
+
+ul{
+  margin-left: 30px;
+  padding: 10px;
+
+  font-size: 14px;
+  font-weight: bold;
+}
+
+label{
+  font-size: 16px;
+}
+
+.formulario{
+
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+input{
+  height: 35px;
+  width: 100%;
+  padding: 0 10px;
+
+  border: 1px solid purple;
+  border-radius: 5px;
+
+  background-color: bisque;
+}
+
+button{
+  margin-top: 10px;
+  padding: 10px;
+
+  border: 1px solid purple;
+  border-radius: 5px;
+
+  background-color: purple;
+  color: aliceblue;
+
+  width: 100%;
+}
+
+button:hover{
+  background-color: aliceblue;
+  color: purple;
+}
+/* Message erro*/
+.erro-text{
+  line-height: 0.8;
+  font-size: 12px;
+  color: red;
+}
